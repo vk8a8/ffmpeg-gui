@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>ffmpeg-gui</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="inputFileButton">
@@ -30,7 +30,7 @@
    <widget class="QLabel" name="inputFileLabel">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>130</x>
       <y>0</y>
       <width>341</width>
       <height>31</height>
@@ -56,7 +56,7 @@
    <widget class="QLineEdit" name="outputExtensionLineEdit">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>270</x>
       <y>40</y>
       <width>113</width>
       <height>21</height>
@@ -141,16 +141,22 @@
      <string>Start</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>687</width>
-     <height>23</height>
-    </rect>
-   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>320</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>adding &quot;z&quot; at beginning of widgets that won't be called in the code files as to not clutter the snippets menu ( when writing something like ui-&gt;uiWidget-&gt;function(), the zWidget will not appear unless I scroll to the bottom )</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

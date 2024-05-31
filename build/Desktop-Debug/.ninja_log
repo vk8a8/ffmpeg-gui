@@ -1,0 +1,21 @@
+# ninja log v6
+2	319	1717179382313506364	ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+2	319	1717179382313506364	ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+2	319	1717179382313506364	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+2	319	1717179382313506364	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+321	2711	1717179382333506366	CMakeFiles/ffmpeg-gui.dir/ffmpeg-gui_autogen/mocs_compilation.cpp.o	540ad85f23289d95
+321	2965	1717179382333506366	CMakeFiles/ffmpeg-gui.dir/main.cpp.o	206fb3deacd1e550
+321	3497	1717179382333506366	CMakeFiles/ffmpeg-gui.dir/mainwindow.cpp.o	10401b2ebd3b32e2
+3497	3936	1717179385510173251	ffmpeg-gui	b0738cb7a5204652
+4	68	1717180572660254918	ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+4	68	1717180572660254918	ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+4	68	1717180572660254918	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+4	68	1717180572660254918	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+68	3033	1717180572723588256	CMakeFiles/ffmpeg-gui.dir/mainwindow.cpp.o	10401b2ebd3b32e2
+3033	3453	1717180575686921793	ffmpeg-gui	b0738cb7a5204652
+5	70	1717180603416923701	ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+5	70	1717180603416923701	ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+5	70	1717180603416923701	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+5	70	1717180603416923701	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+70	3032	1717180603480257038	CMakeFiles/ffmpeg-gui.dir/mainwindow.cpp.o	10401b2ebd3b32e2
+3032	3459	1717180606443590576	ffmpeg-gui	b0738cb7a5204652

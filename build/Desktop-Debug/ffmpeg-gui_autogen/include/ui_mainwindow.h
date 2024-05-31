@@ -14,7 +14,6 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTextEdit>
@@ -36,7 +35,7 @@ public:
     QLineEdit *outputNameLineEdit;
     QLabel *zOutputNameLabel;
     QPushButton *startButton;
-    QMenuBar *menubar;
+    QLabel *label;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -51,13 +50,13 @@ public:
         inputFileButton->setGeometry(QRect(0, 0, 121, 31));
         inputFileLabel = new QLabel(centralwidget);
         inputFileLabel->setObjectName(QString::fromUtf8("inputFileLabel"));
-        inputFileLabel->setGeometry(QRect(120, 0, 341, 31));
+        inputFileLabel->setGeometry(QRect(130, 0, 341, 31));
         zOutputExtensionLabel = new QLabel(centralwidget);
         zOutputExtensionLabel->setObjectName(QString::fromUtf8("zOutputExtensionLabel"));
         zOutputExtensionLabel->setGeometry(QRect(0, 41, 281, 20));
         outputExtensionLineEdit = new QLineEdit(centralwidget);
         outputExtensionLineEdit->setObjectName(QString::fromUtf8("outputExtensionLineEdit"));
-        outputExtensionLineEdit->setGeometry(QRect(280, 40, 113, 21));
+        outputExtensionLineEdit->setGeometry(QRect(270, 40, 113, 21));
         outputFolderButton = new QPushButton(centralwidget);
         outputFolderButton->setObjectName(QString::fromUtf8("outputFolderButton"));
         outputFolderButton->setGeometry(QRect(0, 70, 91, 31));
@@ -77,11 +76,11 @@ public:
         startButton = new QPushButton(centralwidget);
         startButton->setObjectName(QString::fromUtf8("startButton"));
         startButton->setGeometry(QRect(0, 120, 80, 31));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(400, 320, 271, 131));
+        label->setWordWrap(true);
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 687, 23));
-        MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
@@ -93,7 +92,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "ffmpeg-gui", nullptr));
         inputFileButton->setText(QCoreApplication::translate("MainWindow", "Choose Input file", nullptr));
         inputFileLabel->setText(QCoreApplication::translate("MainWindow", "null", nullptr));
         zOutputExtensionLabel->setText(QCoreApplication::translate("MainWindow", "Choose output extension (i.e.: mp4, mov, wav):", nullptr));
@@ -102,6 +101,7 @@ public:
         outputNameLineEdit->setText(QCoreApplication::translate("MainWindow", "out", nullptr));
         zOutputNameLabel->setText(QCoreApplication::translate("MainWindow", "output name:", nullptr));
         startButton->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "adding \"z\" at beginning of widgets that won't be called in the code files as to not clutter the snippets menu ( when writing something like ui->uiWidget->function(), the zWidget will not appear unless I scroll to the bottom )", nullptr));
     } // retranslateUi
 
 };
