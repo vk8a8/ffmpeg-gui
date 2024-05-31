@@ -19,3 +19,9 @@
 5	70	1717180603416923701	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
 70	3032	1717180603480257038	CMakeFiles/ffmpeg-gui.dir/mainwindow.cpp.o	10401b2ebd3b32e2
 3032	3459	1717180606443590576	ffmpeg-gui	b0738cb7a5204652
+15	107	1717184948656674561	ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+15	107	1717184948656674561	ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+15	107	1717184948656674561	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/timestamp	8bcb199a583c6811
+15	107	1717184948656674561	/home/vk8a8/Documents/ffmpeg-gui/build/Desktop-Debug/ffmpeg-gui_autogen/mocs_compilation.cpp	8bcb199a583c6811
+107	3071	1717184948750007901	CMakeFiles/ffmpeg-gui.dir/mainwindow.cpp.o	10401b2ebd3b32e2
+3072	3525	1717184951713341438	ffmpeg-gui	b0738cb7a5204652

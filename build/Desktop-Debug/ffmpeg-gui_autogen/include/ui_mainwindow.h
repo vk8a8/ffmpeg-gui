@@ -35,7 +35,6 @@ public:
     QLineEdit *outputNameLineEdit;
     QLabel *zOutputNameLabel;
     QPushButton *startButton;
-    QLabel *label;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -76,10 +75,6 @@ public:
         startButton = new QPushButton(centralwidget);
         startButton->setObjectName(QString::fromUtf8("startButton"));
         startButton->setGeometry(QRect(0, 120, 80, 31));
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(400, 320, 271, 131));
-        label->setWordWrap(true);
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -101,7 +96,6 @@ public:
         outputNameLineEdit->setText(QCoreApplication::translate("MainWindow", "out", nullptr));
         zOutputNameLabel->setText(QCoreApplication::translate("MainWindow", "output name:", nullptr));
         startButton->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "adding \"z\" at beginning of widgets that won't be called in the code files as to not clutter the snippets menu ( when writing something like ui->uiWidget->function(), the zWidget will not appear unless I scroll to the bottom )", nullptr));
     } // retranslateUi
 
 };

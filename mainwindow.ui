@@ -56,7 +56,7 @@
    <widget class="QLineEdit" name="outputExtensionLineEdit">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>290</x>
       <y>40</y>
       <width>113</width>
       <height>21</height>
@@ -139,22 +139,6 @@
     </property>
     <property name="text">
      <string>Start</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>320</y>
-      <width>271</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>adding &quot;z&quot; at beginning of widgets that won't be called in the code files as to not clutter the snippets menu ( when writing something like ui-&gt;uiWidget-&gt;function(), the zWidget will not appear unless I scroll to the bottom )</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
     </property>
    </widget>
   </widget>
