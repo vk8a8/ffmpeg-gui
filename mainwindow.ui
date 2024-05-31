@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="inputFileButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Choose Input file</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="inputFileLabel">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>0</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>null</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zOutputExtensionLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>41</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Choose output extension (i.e.: mp4, mov, wav):</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="outputExtensionLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>40</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="outputFolderButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output folder</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outputFolderLabel">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>541</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="uiShell">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>411</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="outputNameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>out</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zOutputNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>output name:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>687</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
